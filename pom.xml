@@ -15,18 +15,6 @@
         <java.version>13</java.version>
     </properties>
     
-      <reporting>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-javadoc-plugin</artifactId>
-        <version>3.3.0</version>
-        <configuration>
-        </configuration>
-      </plugin>
-    </plugins>
-  </reporting>
-    
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
