@@ -3,16 +3,12 @@ package beans;
 import java.util.Date;
 
 public class Remark {
-	public Date publishDate;
-    public String userName;
-    public String content;
-     public Date getPublishDate() {
-		return publishDate;
-	}
-	public void setPublishDate(Date publishDate) {
-		this.publishDate = publishDate;
-	}
-	public String getUserName() {
+
+	private String userName;
+    private String content;
+    private int id;
+    private int score;
+    public String getUserName() {
 		return userName;
 	}
 	public void setUserName(String userName) {
@@ -24,5 +20,18 @@ public class Remark {
 	public void setContent(String content) {
 		this.content = content;
 	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+
 
 }

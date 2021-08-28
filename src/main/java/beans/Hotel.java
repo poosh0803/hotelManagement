@@ -1,30 +1,38 @@
 package beans;
+
 import enums.HotelType;
+
 public class Hotel {
 
-	private String number;
+
+	private String id;
 	private String name;
+	private String address;
 	private HotelType type;
 	private double area;
 	private int star;
 	private int score;
 	private String introduction;
-	private String photo;
+	private String picture;
 	
 	
-	
-
-  public String getNumber() {
-		return number;
+	public String getId() {
+		return id;
 	}
-	public void setNumber(String number) {
-		this.number = number;
+	public void setId(String id) {
+		this.id = id;
 	}
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
 	}
 	public HotelType getType() {
 		return type;
@@ -56,12 +64,12 @@ public class Hotel {
 	public void setIntroduction(String introduction) {
 		this.introduction = introduction;
 	}
-	public String getPhoto() {
-		return photo;
+	public String getpicture() {
+		return picture;
 	}
-	public void setPhoto(String photo) {
-		this.photo = photo;
+	public void setpicture(String photo) {
+		this.picture = photo;
 	}
 
-  
+
 }

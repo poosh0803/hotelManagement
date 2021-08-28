@@ -8,9 +8,10 @@ public class User {
     private String phoneNumber;
     private UserType type;
     private String nickName;
-    private String photo;
+    private String picture;
     private int ID;
     private double balance;
+	private String payPassword;
     public String getName() {
 		return name;
 	}
@@ -41,11 +42,11 @@ public class User {
 	public void setNickName(String nickName) {
 		this.nickName = nickName;
 	}
-	public String getPhoto() {
-		return photo;
+	public String getPicture() {
+		return picture;
 	}
-	public void setPhoto(String photo) {
-		this.photo = photo;
+	public void setPicture(String photo) {
+		this.picture = photo;
 	}
 	public int getID() {
 		return ID;
@@ -59,5 +60,10 @@ public class User {
 	public void setBalance(double balance) {
 		this.balance = balance;
 	}
-
+    public String getPayPassword() {
+		return payPassword;
+	}
+	public void setPayPassword(String payPassword) {
+		this.payPassword = payPassword;
+	}
 }
