@@ -8,11 +8,10 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
+
 steps:
 - script: echo Hello world!
   displayName: Say hello
-
-steps:
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
